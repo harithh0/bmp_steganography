@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+ * Img: https://people.math.sc.edu/Burkardt/data/bmp/bmp.html
+ *
+ */
+
 int main() {
 
   FILE *fileptr;
@@ -23,7 +28,7 @@ int main() {
 
   const char *message = "Hello world!";
   const unsigned char *bytes = (const unsigned char *)message;
-  printf("%c", message[0]);
+  int message_size = 12;
 
   return 0;
 }
