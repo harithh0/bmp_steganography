@@ -20,5 +20,10 @@ int main() {
   printf("Width: %d\n", width);
   printf("Height: %d\n", height);
   printf("Pixel Data Starts At Byte: %d\n", dataOffset);
+
+  const char *message = "Hello world!";
+  const unsigned char *bytes = (const unsigned char *)message;
+  printf("%c", message[0]);
+
   return 0;
 }
